@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-const readlineSync = require('readline-sync');
+import readlineSync from 'readline-sync';
 
 // Wait for user's response.
 const userName = readlineSync.question('May I have your name? ');
