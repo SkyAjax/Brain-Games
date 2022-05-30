@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "just small brain games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyAjax/frontend-project-lvl1.git"
+  },
+  "author": "Sergei Ruban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkyAjax/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/SkyAjax/frontend-project-lvl1#readme"
+}
