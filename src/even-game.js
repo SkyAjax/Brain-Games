@@ -24,7 +24,7 @@ Let's try again, ${userName}!`);
 
 // Function that counts answers
 const startGame = () => {
-  for (let i = 0; i < 3; i + 1) {
+  for (let i = 0; i < 3; i += 1) {
     const isCorrect = startRound();
     if (!isCorrect) {
       return;
