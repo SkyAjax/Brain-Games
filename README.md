@@ -6,3 +6,5 @@
 ![ESlint](https://github.com/SkyAjax/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)
 ### Asciinema of launching brain-even game:
 https://asciinema.org/a/x8WV6HEX34iuhDMPwItqyMjb6
+### Asciinema of launching brain-calc game:
+https://asciinema.org/a/sz07PNmjs3vrXVDXs05phEs1o

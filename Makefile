@@ -8,3 +8,5 @@ lint:
 	npx eslint .
 brain-even:
 	node bin/brain-even.js
+asciinema:
+	asciinema rec
