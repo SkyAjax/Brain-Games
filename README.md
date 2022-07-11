@@ -10,3 +10,5 @@ https://asciinema.org/a/x8WV6HEX34iuhDMPwItqyMjb6
 https://asciinema.org/a/sz07PNmjs3vrXVDXs05phEs1o
 ### Asciinema of launching brain-gcd game:
 https://asciinema.org/a/iDi2uWQcOUoqUcvRDxRmU219L
+### Asciinema of launching brain-progression game:
+https://asciinema.org/a/U3CnLDqN7OGnyaxcNGg5vy1Q5
