@@ -13,4 +13,4 @@ https://asciinema.org/a/iDi2uWQcOUoqUcvRDxRmU219L
 ### Demonstration of brain-progression game:
 https://asciinema.org/a/U3CnLDqN7OGnyaxcNGg5vy1Q5
 ### Demonstration of brain-prime game:
-https://asciinema.org/a/XDOj8B4jMCQfeMkIT1zHAMFNQ
+https://asciinema.org/a/ewBg42Bjfkw024TrXmAEwcydD
