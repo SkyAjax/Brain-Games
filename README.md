@@ -25,18 +25,17 @@ Nothing special, just Node.js v.13 or higher. Then,
 3) Install the package
 `make install`
 
-### Demonstration of brain-even game:
 Type `brain-even` to start the game
-https://asciinema.org/a/x8WV6HEX34iuhDMPwItqyMjb6
-### Demonstration of brain-calc game:
+### Demonstration: https://asciinema.org/a/x8WV6HEX34iuhDMPwItqyMjb6
+
 Type `brain-calc` to start the game
-https://asciinema.org/a/sz07PNmjs3vrXVDXs05phEs1o
-### Demonstration of brain-gcd game:
+### Demonstration: https://asciinema.org/a/sz07PNmjs3vrXVDXs05phEs1o
+
 Type `brain-gcd` to start the game
-https://asciinema.org/a/iDi2uWQcOUoqUcvRDxRmU219L
-### Demonstration of brain-progression game:
+### Demonstration: https://asciinema.org/a/iDi2uWQcOUoqUcvRDxRmU219L
+
 Type `brain-progression` to start the game
-https://asciinema.org/a/U3CnLDqN7OGnyaxcNGg5vy1Q5
-### Demonstration of brain-prime game:
+### Demonstration: https://asciinema.org/a/U3CnLDqN7OGnyaxcNGg5vy1Q5
+
 Type `brain-prime` to start the game
-https://asciinema.org/a/ewBg42Bjfkw024TrXmAEwcydD
+### Demonstration: https://asciinema.org/a/ewBg42Bjfkw024TrXmAEwcydD
