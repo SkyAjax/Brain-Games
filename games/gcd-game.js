@@ -2,6 +2,7 @@
 import getRandomNum from '../src/helpers.js';
 
 const startRound = () => {
+  // Launch function that returns game data
   const getExpression = () => {
     const firstNumber = getRandomNum(100);
     const secondNumber = getRandomNum(100);

@@ -3,6 +3,7 @@ import getRandomNum from '../src/helpers.js';
 
 // Function that starts a round
 const startRound = () => {
+  // Launch function that returns game data
   const getExpression = () => {
     const randomNumber = getRandomNum(100);
     // console.log(randomNumber);

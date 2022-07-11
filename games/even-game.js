@@ -5,8 +5,8 @@ import getRandomNum from '../src/helpers.js';
 const startRound = () => {
   const getExpression = () => {
     const randomNumber = getRandomNum(100);
-    const oddNum = randomNumber % 2;
-    const correctAnswer = oddNum === 0 ? 'yes' : 'no';
+    const isEvenNum = (number) => number % 2 === 0;
+    const correctAnswer = isEvenNum(randomNumber) ? 'yes' : 'no';
     return [randomNumber, correctAnswer];
   };
   const dataArray = getExpression();
