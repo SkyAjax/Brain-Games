@@ -5,17 +5,19 @@ import getRandomNum from '../src/helpers.js';
 const startRound = () => {
   const getExpression = () => {
     const randomNumber = getRandomNum(100);
-    console.log(randomNumber);
+    // console.log(randomNumber);
 
     let correctAnswer;
-    for (let i = randomNumber - 1; i >= 0; i -= 1) {
-      if (randomNumber % i === 0 && randomNumber > 3) {
+    if (randomNumber < 4) {
+      correctAnswer = 'yes';
+    }
+    for (let i = randomNumber - 1; i > 1; i -= 1) {
+      if (randomNumber % i === 0) {
         correctAnswer = 'no';
         break;
       }
       correctAnswer = 'yes';
     }
-
     return [randomNumber, correctAnswer];
   };
   const dataArray = getExpression();
