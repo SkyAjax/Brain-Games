@@ -8,8 +8,8 @@ const startRound = () => {
     console.log(randomNumber);
 
     let correctAnswer;
-    for (let i = randomNumber - 1; i > 1; i -= 1) {
-      if (randomNumber % i === 0) {
+    for (let i = randomNumber - 1; i >= 0; i -= 1) {
+      if (randomNumber % i === 0 && randomNumber > 3) {
         correctAnswer = 'no';
         break;
       }
