@@ -3,8 +3,8 @@ import getRandomNum from '../src/helpers.js';
 
 const startRound = () => {
   const getExpression = () => {
-    const firstNumber = getRandomNum();
-    const secondNumber = getRandomNum();
+    const firstNumber = getRandomNum(100);
+    const secondNumber = getRandomNum(100);
     const oneQuestion = `${firstNumber} ${secondNumber}`;
 
     let correctAnswer;

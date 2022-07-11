@@ -4,8 +4,8 @@ import getRandomNum from '../src/helpers.js';
 // Get a round data
 const startRound = () => {
   const getExpression = () => {
-    const firstNumber = getRandomNum();
-    const secondNumber = getRandomNum();
+    const firstNumber = getRandomNum(100);
+    const secondNumber = getRandomNum(100);
 
     const getRandomInt = Math.floor(Math.random() * 3);
     const typeOfMath = ['+', '-', '*'];
