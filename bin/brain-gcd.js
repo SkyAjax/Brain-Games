@@ -2,8 +2,8 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-console */
 
-import startRound from '../games/gcd-game.js';
-import { gameDescription, startGame } from '../src/index.js';
+import startRound from '../src/games/gcd-game.js';
+import { startGame } from '../src/index.js';
 
-gameDescription('Find the greatest common divisor of given numbers.');
+// gameDescription('Find the greatest common divisor of given numbers.');
 startGame(startRound);

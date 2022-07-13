@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-console */
 
-import startRound from '../games/calc-game.js';
+import startRound from '../src/games/calc-game.js';
 import { gameDescription, startGame } from '../src/index.js';
 
 gameDescription('What is the result of the expression?');
