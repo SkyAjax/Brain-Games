@@ -3,7 +3,6 @@
   "type": "module",
   "version": "1.0.0",
   "description": "just small brain games",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,8 +25,6 @@
   },
   "homepage": "https://github.com/SkyAjax/frontend-project-lvl1#readme",
   "dependencies": {
-    "brain-even": "^0.1.12",
-    "eslint-config-airbnb": "^19.0.4",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
