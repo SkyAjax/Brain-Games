@@ -9,7 +9,7 @@ const startRound = () => {
   const getExpression = () => {
     // Generate first number in array
     const firstNum = getRandomNum(1, 20);
-    for (let i = firstNum; i < 100; i += firstNum) {
+    for (let i = firstNum; i <= 100; i += firstNum) {
       if (progressionRow.length < 10) {
         progressionRow.push(i);
       }
