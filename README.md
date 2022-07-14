@@ -17,7 +17,7 @@ Brain calculator: Challenge you to calculate random mathemathic expressions.
 Brain progression: Challenge you to find missing numbers in a progression row.
 
 ## How to install:
-Nothing special, just Node.js v.13 or higher. Then,
+Nothing special, just Node.js v.16 or higher. Then,
 1) Clone 
 `git@github.com:SkyAjax/frontend-project-lvl1.git`
 2) Go to the project folder
