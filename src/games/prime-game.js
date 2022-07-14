@@ -6,7 +6,7 @@ export const gameDescription = 'Answer "yes" if given number is prime. Otherwise
 const startRound = () => {
   // Launch function that returns game data
   const getExpression = () => {
-    const randomNumber = getRandomNum(1, 100);
+    const randomNumber = getRandomNum(2, 100);
     // console.log(randomNumber);
     let correctAnswer;
 
