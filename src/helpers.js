@@ -1,6 +1,5 @@
-/* eslint-disable no-console */
-
-// Create random number between 0 and 100
-const getRandomNum = (num) => Math.floor(Math.random() * num);
-
+// Create random number between selected range
+function getRandomNum(minNumber, maxNumber) {
+  return Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+}
 export default getRandomNum;

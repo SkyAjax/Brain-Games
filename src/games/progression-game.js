@@ -1,5 +1,6 @@
-/* eslint-disable no-console */
-import getRandomNum from '../src/helpers.js';
+import getRandomNum from '../helpers.js';
+
+export const gameDescription = 'What number is missing in the progression?';
 
 const startRound = () => {
   // Create empty array
@@ -7,7 +8,7 @@ const startRound = () => {
   // Launch function that returns game data
   const getExpression = () => {
     // Generate first number in array
-    const firstNum = getRandomNum(20);
+    const firstNum = getRandomNum(1, 20);
     for (let i = firstNum; i < 100; i += firstNum) {
       if (progressionRow.length < 10) {
         progressionRow.push(i);
@@ -22,7 +23,7 @@ const startRound = () => {
     // Get final progression
     const finalProgression = progressionRow.join(' ');
     // console.log(oneQuestion, correctAnswer);
-    return [finalProgression, correctAnswer];
+    return [finalProgression, correctAnswer.toString()];
   };
   const dataArray = getExpression();
   // console.log(dataArray);

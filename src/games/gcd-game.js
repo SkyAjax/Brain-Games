@@ -1,12 +1,12 @@
-/* eslint-disable no-console */
 import getRandomNum from '../helpers.js';
+
+export const gameDescription = 'Find the greatest common divisor of given numbers.';
 
 const startRound = () => {
   // Launch function that returns game data
   const getExpression = () => {
-    const gameDescription = 'Find the greatest common divisor of given numbers.';
-    const firstNumber = getRandomNum(100);
-    const secondNumber = getRandomNum(100);
+    const firstNumber = getRandomNum(1, 100);
+    const secondNumber = getRandomNum(1, 100);
     const oneQuestion = `${firstNumber} ${secondNumber}`;
 
     let correctAnswer;
@@ -18,7 +18,7 @@ const startRound = () => {
       }
     }
     // console.log(oneQuestion, correctAnswer);
-    return [oneQuestion, correctAnswer, gameDescription];
+    return [oneQuestion, correctAnswer.toString(), gameDescription];
   };
   const dataArray = getExpression();
   // console.log(dataArray);
