@@ -1,33 +1,15 @@
-import getRandomNum from '../helpers.js';
+import getRandomNum, { getFinalProgression, getHiddenNum, getProgressionRow } from '../helpers.js';
 
 export const gameDescription = 'What number is missing in the progression?';
 
 const startRound = () => {
-  // Create empty array
-  const progressionRow = [];
-  // Launch function that returns game data
-  const getExpression = () => {
-    // Generate first number in array
-    const firstNum = getRandomNum(1, 20);
-    for (let i = firstNum; i <= 100; i += firstNum) {
-      if (progressionRow.length < 10) {
-        progressionRow.push(i);
-      }
-    }
-    // console.log(progressionRow);
-    // Hide random number
-    const getHiddenNum = () => Math.floor(Math.random() * progressionRow.length);
-    const hideNum = getHiddenNum();
-    const correctAnswer = progressionRow[hideNum];
-    progressionRow[hideNum] = '..';
-    // Get final progression
-    const finalProgression = progressionRow.join(' ');
-    // console.log(oneQuestion, correctAnswer);
-    return [finalProgression, correctAnswer.toString()];
-  };
-  const dataArray = getExpression();
-  // console.log(dataArray);
-  return dataArray;
+  const firstNumber = getRandomNum(1, 20);
+  const progressionRow = getProgressionRow(firstNumber);
+  const hideNum = getHiddenNum(progressionRow);
+  const correctAnswer = progressionRow[hideNum];
+  const finalProgression = getFinalProgression(hideNum, progressionRow);
+
+  return [finalProgression, correctAnswer.toString()];
 };
 
 export default startRound;
