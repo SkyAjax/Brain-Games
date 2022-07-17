@@ -26,7 +26,7 @@ Nothing special, just Node.js v.16 or higher. Then,
 `make install`
 
 Type `brain-even` to start the game
-##### Demonstration: <img src = "https://asciinema.org/a/x8WV6HEX34iuhDMPwItqyMjb6">
+##### Demonstration: [![asciicast](https://asciinema.org/a/x8WV6HEX34iuhDMPwItqyMjb6.svg)](https://asciinema.org/a/x8WV6HEX34iuhDMPwItqyMjb6)
 
 Type `brain-calc` to start the game
 ##### Demonstration: https://asciinema.org/a/sz07PNmjs3vrXVDXs05phEs1o
