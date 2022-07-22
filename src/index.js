@@ -1,9 +1,8 @@
 import readlineSync from 'readline-sync';
 import userName from './cli.js';
 
-export const maxRoundsCount = 3;
-
-export const startGame = (getRoundData, getGameDescription) => {
+const startGame = (getRoundData, getGameDescription) => {
+  const maxRoundsCount = 3;
   console.log(getGameDescription);
   for (let i = 0; i < maxRoundsCount; i += 1) {
     const [roundQuestion, correctAnswer] = getRoundData();
@@ -20,3 +19,5 @@ export const startGame = (getRoundData, getGameDescription) => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
+
+export default startGame;
