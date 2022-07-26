@@ -1,11 +1,11 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/SkyAjax/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SkyAjax/frontend-project-lvl1/actions)
 ### Maintainability status:
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/19dbdcbea38622e7bca4/maintainability)](https://codeclimate.com/github/SkyAjax/frontend-project-lvl1/maintainability)
 ### Git Action status:
-![ESlint](https://github.com/SkyAjax/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)
+[![Git Action status](https://github.com/SkyAjax/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/SkyAjax/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
-# Project decription
+# Project description
 "Brain Games" is a set of five simple console games. Each game asks a maximum of three questions and to succeed you need to answer all of them correctly. If not you'll lose but don't get frustrated - sometimes we all get unlucky.
 
 ## "Brain Games" offers following games:
@@ -13,7 +13,7 @@
 Brain even: Challenge you to define if a given number even or not.
 Brain prime: Challenge you to define if a given number prime or not.
 Brain gcd: Challenge you to find the greatest common divisor of two numbers.
-Brain calculator: Challenge you to calculate random mathemathic expressions.
+Brain calculator: Challenge you to calculate random mathematic expressions.
 Brain progression: Challenge you to find missing numbers in a progression row.
 
 ## How to install:
