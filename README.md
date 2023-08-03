@@ -10,11 +10,11 @@
 
 ## "Brain Games" offers following games:
 
-Brain even: Challenge you to define if a given number even or not.
-Brain prime: Challenge you to define if a given number prime or not.
-Brain gcd: Challenge you to find the greatest common divisor of two numbers.
-Brain calculator: Challenge you to calculate random mathematic expressions.
-Brain progression: Challenge you to find missing numbers in a progression row.
+Brain even: Challenges you to define if a given number even or not.\
+Brain prime: Challenges you to define if a given number prime or not.\
+Brain gcd: Challenges you to find the greatest common divisor of two numbers.\
+Brain calculator: Challenges you to calculate random mathematic expressions.\
+Brain progression: Challenges you to find missing numbers in a progression row.\
 
 ## How to install:
 Nothing special, just Node.js v.16 or higher. Then,
